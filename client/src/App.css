@@ -1,0 +1,83 @@
+body {
+  font-family: 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #f8f9fa;
+}
+
+.App {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.App header {
+  background-color: #0078d4;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.App header h1 {
+  margin: 0;
+  font-size: 2rem;
+  font-weight: bold;
+}
+
+main.container {
+  flex-grow: 1;
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+}
+
+.card {
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  border: none;
+  margin-bottom: 2rem;
+}
+
+.card-title {
+  color: #0078d4;
+  font-weight: bold;
+  margin-bottom: 1.5rem;
+}
+
+form {
+  margin-bottom: 1.5rem;
+}
+
+.form-label {
+  font-weight: 600;
+}
+
+.btn-primary {
+  background-color: #0078d4;
+  border-color: #0078d4;
+}
+
+.btn-primary:hover {
+  background-color: #005a9e;
+  border-color: #005a9e;
+}
+
+.activity-monitor {
+  max-height: 400px;
+  overflow-y: auto;
+}
+
+.activity-item {
+  padding: 0.5rem;
+  border-bottom: 1px solid #e9ecef;
+}
+
+.activity-item:last-child {
+  border-bottom: none;
+}
+
+.alert {
+  margin-bottom: 1rem;
+}
+
+@media (max-width: 768px) {
+  .App header h1 {
+    font-size: 1.5rem;
+  }
+}
