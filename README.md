@@ -21,16 +21,16 @@ Azure Snapshot Manager is a web application that allows users to manage Azure di
 
 1. Clone the repository:
    ```
-   git clone https://github.com/yourusername/azure-snapshot-manager.git
+   git clone https://github.com/dagz55/azure-snapshot-manager.git
    cd azure-snapshot-manager
    ```
 
 2. Set up environment variables:
    Create a `.env` file in the root directory with the following content:
    ```
-   REACT_APP_AZURE_TENANT_ID=your_tenant_id
-   REACT_APP_AZURE_CLIENT_ID=your_client_id
-   REACT_APP_AZURE_SUBSCRIPTION_ID=your_subscription_id
+   REACT_APP_AZURE_TENANT_ID=<your_tenant_id>
+   REACT_APP_AZURE_CLIENT_ID=<your_client_id>
+   REACT_APP_AZURE_SUBSCRIPTION_ID=<your_subscription_id>
    ```
 
 3. Build the Docker image:
@@ -82,6 +82,7 @@ This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md
 
 ## Acknowledgments
 
-- Azure SDK for Go
-- React
-- Docker
+[rsuar29]
+[TopD]
+[dagz55]
+[baddog]
